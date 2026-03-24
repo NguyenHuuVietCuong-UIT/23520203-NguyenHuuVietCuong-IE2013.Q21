@@ -7,7 +7,7 @@
 
 ## Danh sách các Lab
 - [x] **Lab 01:** MONGODB - CRUD Operation
-- [ ] **Lab 02:** [Chưa thực hiện]
+- [x] **Lab 02:** Thiết lập Backend với Node và ExpressJS
 - [ ] **Lab 03:** [Chưa thực hiện]
 - [ ] **Lab 04:** [Chưa thực hiện]
 - [ ] **Lab 05:** [Chưa thực hiện]
@@ -47,17 +47,53 @@
 - Chưa hoàn thành: Không có.
 
 **7. Khai báo sử dụng AI**
-- [cite_start]**Công cụ đã sử dụng:** Google Gemini.
-- [cite_start]**Mục đích sử dụng:** Hỗ trợ sửa lỗi môi trường.
-- [cite_start]**Phần được AI hỗ trợ:** 
+- **Công cụ đã sử dụng:** Google Gemini.
+- **Mục đích sử dụng:** Hỗ trợ sửa lỗi môi trường, hỗ trợ viết README.md.
+- **Phần được AI hỗ trợ:** 
   - Khắc phục lỗi IP (`SSL alert number 80`) và lỗi xác thực (`bad auth`).
   - Hỗ trợ viết README.md.
 
 ---
 
-### Lab 02: [Tên bài thực hành Lab 02]
-- **Mục tiêu:** [Chưa thực hiện]
-- **Trạng thái:** [Chưa thực hiện]
+### Lab 02: Thiết lập Backend với Node và ExpressJS
+
+**1. Mục tiêu bài thực hành**
+- Thiết lập môi trường phát triển Node.js.
+- Thực hành tạo các tệp tin `server.js`, `index.js`, `api/movies.route.js`.
+- Cấu hình kiến trúc Controller và DAO (Data Access Object) để kết nối với MongoDB Atlas.
+
+**2. Công cụ / Môi trường sử dụng**
+- **Ngôn ngữ / Nền tảng:** Node.js, npm.
+- **Framework/Thư viện:** Express.js, MongoDB Node.js Driver, CORS, dotenv, Nodemon.
+- **Database:** MongoDB Atlas (Dataset `sample_mflix`).
+- **IDE:** Visual Studio Code.
+
+**3. Cách chạy chương trình**
+1. Mở Terminal và di chuyển vào thư mục dự án: `Lab02/movie-reviews/backend`.
+2. Chạy lệnh `npm install` để cài đặt các thư viện phụ thuộc (dependencies).
+3. Tạo file `.env` ngang hàng với tệp `server.js` và cấu hình chuỗi kết nối:
+   - `MOVIEREVIEWS_DB_URI=mongodb+srv://<username>:<password>@cluster.../sample_mflix`
+   - `MOVIEREVIEWS_NS=sample_mflix`
+   - `PORT=3000`
+4. Chạy lệnh `npx nodemon index.js` (hoặc `npm run dev`) để khởi động máy chủ.
+5. Mở trình duyệt và truy cập vào đường dẫn: `http://localhost:3000/api/v1/movies`.
+
+**4. Kết quả thực hiện**
+- **Thiết lập môi trường thành công:**
+  ![Thiết lập môi trường thành công](Lab02/img/minhchung1.png)
+- **Viết code:**
+  ![Các file code đã viết](Lab02/movie-reviews/backend/)
+  ![Kết quả](Lab02/img/minhchung2.png)
+
+**6. Mức độ hoàn thành**
+- Đã hoàn thành: 100% yêu cầu của Lab 02.
+- Chưa hoàn thành: Không có.
+
+**7. Khai báo sử dụng AI**
+- **Công cụ đã sử dụng:** Google Gemini.
+- **Mục đích sử dụng:** Hỗ trợ viết README.md.
+- **Phần được AI hỗ trợ:** 
+  - Hỗ trợ viết README.md.
 
 ---
 
