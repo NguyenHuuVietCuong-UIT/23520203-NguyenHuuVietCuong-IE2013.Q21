@@ -8,7 +8,7 @@
 ## Danh sách các Lab
 - [x] **Lab 01:** MONGODB - CRUD Operation
 - [x] **Lab 02:** Thiết lập Backend với Node và ExpressJS
-- [ ] **Lab 03:** [Chưa thực hiện]
+- [x] **Lab 03:** Hoàn thiện Back-end cho ứng dụng minh hoạ
 - [ ] **Lab 04:** [Chưa thực hiện]
 - [ ] **Lab 05:** [Chưa thực hiện]
 - [ ] **Lab 06:** [Chưa thực hiện]
@@ -98,8 +98,42 @@
 ---
 
 ### Lab 03: [Tên bài thực hành Lab 03]
-- **Mục tiêu:** [Chưa thực hiện]
-- **Trạng thái:** [Chưa thực hiện]
+**1. Mục tiêu bài thực hành**
+- Xây dựng hoàn chỉnh các API xử lý tính năng đánh giá (review) phim.
+- Hiểu sâu sắc sự kết nối giữa các phần Controller, Router, và Data Access Object (DAO).
+- Thực hành gửi yêu cầu HTTP bằng các phương thức GET, POST, PUT, DELETE từ máy khách lên máy chủ.
+- Vận dụng Aggregation Framework trong MongoDB để truy vấn và kết nối nhiều Collection.
+
+**2. Công cụ / Môi trường sử dụng**
+- **Ngôn ngữ / Nền tảng:** Node.js.
+- **Framework/Thư viện:** Express.js, MongoDB Node.js Driver.
+- **Database:** MongoDB Atlas.
+- **Công cụ kiểm thử API:** Postman.
+
+**3. Cách chạy chương trình**
+1. Mở Terminal tại thư mục chứa source code backend: `Lab03/movie-reviews/backend`.
+2. Chạy lệnh `npx nodemon index.js` để khởi động máy chủ.
+3. Mở ứng dụng Postman.
+4. Gửi các Request tương ứng (GET, POST, PUT, DELETE) với định dạng body JSON đến các đường dẫn `/review`, `/id/:id`, `/ratings` để kiểm tra kết quả.
+
+**4. Kết quả thực hiện**
+- **Thực thi các API thành công bằng Postman:**
+  *(Ghi chú: Thêm đường dẫn hình ảnh minh chứng Insomnia của bạn vào đây)*
+  ![Test API POST Review](Lab03/img/3.6.1.png)
+  ![Test API PUT Review](Lab03/img/3.6.2.png)
+  ![Test API DELETE Review](Lab03/img/3.6.3.png)
+  ![Test API GET Ratings](Lab03/img/4.4.1.png)
+  ![Test API GET Movies](Lab03/img/4.4.2.png)
+
+**6. Mức độ hoàn thành**
+- Đã hoàn thành: 100% yêu cầu của Lab 03.
+- Chưa hoàn thành: Không có.
+
+**7. Khai báo sử dụng AI**
+- **Công cụ đã sử dụng:** Google Gemini.
+- **Mục đích sử dụng:** Hỗ trợ viết README.md.
+- **Phần được AI hỗ trợ:** 
+  - Hỗ trợ viết README.md.
 
 ---
 
