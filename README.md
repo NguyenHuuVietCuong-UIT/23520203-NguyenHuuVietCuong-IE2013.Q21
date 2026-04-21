@@ -118,7 +118,6 @@
 
 **4. Kết quả thực hiện**
 - **Thực thi các API thành công bằng Postman:**
-  *(Ghi chú: Thêm đường dẫn hình ảnh minh chứng Insomnia của bạn vào đây)*
   ![Test API POST Review](Lab03/img/3.6.1.png)
   ![Test API PUT Review](Lab03/img/3.6.2.png)
   ![Test API DELETE Review](Lab03/img/3.6.3.png)
@@ -138,9 +137,39 @@
 ---
 
 ### Lab 04: [Tên bài thực hành Lab 04]
-- **Mục tiêu:** [Chưa thực hiện]
-- **Trạng thái:** [Chưa thực hiện]
+**1. Mục tiêu bài thực hành**
+- Hiểu được cách thiết lập Frontend trong kiến trúc MERN stack với ReactJS.
+- Giới thiệu và làm quen với các package hỗ trợ UI và Routing (Bootstrap, React Router DOM).
+- Thực hành xây dựng thanh Navigation Header bar với React-Bootstrap.
+- Nắm bắt cách phân chia Component và thiết lập định tuyến cơ bản cho ứng dụng.
 
+**2. Công cụ / Môi trường sử dụng**
+- **Frontend Framework:** ReactJS.
+- **UI Library:** Bootstrap, React-Bootstrap.
+- **Routing:** React-Router-DOM (v5).
+- **Môi trường chạy:** Node.js, npm.
+
+**3. Cách chạy chương trình**
+1. Mở Terminal và di chuyển vào thư mục frontend: `Lab04/movie-reviews/frontend`.
+2. Cài đặt các package cần thiết: `npm install react-bootstrap bootstrap react-router-dom@5.3.4`.
+3. Khởi chạy ứng dụng: `npm start`.
+4. Truy cập giao diện tại: `http://localhost:3000`.
+
+**4. Kết quả thực hiện**
+- **Giao diện thanh Navigation (Trạng thái Login):**
+  ![Trạng thái Login](Lab04/img/navbar-login.png) 
+- **Giao diện thanh Navigation (Trạng thái Logout User):**
+  ![Trạng thái Logout](Lab04/img/navbar-logout.png)
+
+**6. Mức độ hoàn thành**
+- Đã hoàn thành: 100% yêu cầu của Lab 04.
+- Chưa hoàn thành: Không có.
+
+**7. Khai báo sử dụng AI**
+- **Công cụ đã sử dụng:** Google Gemini.
+- **Mục đích sử dụng:** Hỗ trợ viết README.md.
+- **Phần được AI hỗ trợ:** 
+  - Hỗ trợ viết README.md.
 ---
 
 ### Lab 05: [Tên bài thực hành Lab 05]
