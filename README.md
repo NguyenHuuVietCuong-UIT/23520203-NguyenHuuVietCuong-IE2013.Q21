@@ -172,10 +172,44 @@
   - Hỗ trợ viết README.md.
 ---
 
-### Lab 05: [Tên bài thực hành Lab 05]
-- **Mục tiêu:** [Chưa thực hiện]
-- **Trạng thái:** [Chưa thực hiện]
+### Lab 05: Xây dựng Frontend với ReactJS
+**1. Mục tiêu bài thực hành**
+- Hiểu được cách kết nối dữ liệu từ Frontend (ReactJS) tới Backend (Node.js/Express) thông qua các lời gọi API.
+- Cài đặt và sử dụng package `axios` để thực hiện các phương thức GET, POST, PUT, DELETE.
+- Tạo các form thao tác cho phép người dùng nhập và tìm kiếm dữ liệu (theo tên phim, phân loại đánh giá).
+- Nắm vững cách hiển thị danh sách dữ liệu bằng các component của React-Bootstrap như `Card`.
+- Thực hành sử dụng các React Hook quan trọng là `useState()` và `useEffect()`.
+- Hiển thị trang chi tiết phim và danh sách các đánh giá (review) sử dụng thư viện `momentjs` để định dạng thời gian.
 
+**2. Công cụ / Môi trường sử dụng**
+- **Frontend Framework:** ReactJS.
+- **Thư viện hỗ trợ:** Axios (gọi API), Moment.js (định dạng thời gian).
+- **UI & Routing:** React-Bootstrap, React-Router-DOM.
+- **Backend & Database:** Node.js, Express, MongoDB Atlas (cần chạy song song Backend để Frontend kết nối).
+
+**3. Cách chạy chương trình**
+1. Đảm bảo MongoDB đã được đánh Text Index cho trường `title` trong collection `movies`.
+2. Mở Terminal tại thư mục Backend (`Lab05/movie-reviews/backend`), chạy lệnh `node index.js` để khởi động máy chủ (chú ý cấu hình đúng port trong file `.env` và `movies.js`).
+3. Mở một Terminal mới và di chuyển vào thư mục Frontend: `Lab05/movie-reviews/frontend`.
+4. Cài đặt thêm các package cần thiết: `npm install axios moment`.
+5. Khởi chạy ứng dụng Frontend bằng lệnh: `npm start`.
+6. Mở trình duyệt và truy cập vào: `http://localhost:3000`.
+
+**4. Kết quả thực hiện**
+- **Giao diện trang web trước khi tìm kiếm:**
+  ![Giao diện trang web trước khi tìm kiếm](/Lab05/img/Hình%20ảnh%20chưa%20search.png)
+- **Giao diện sau khi tìm kiếm:**
+  ![Giao diện sau khi tìm kiếm](/Lab05/img/Hình%20ảnh%20search%20train.png)
+
+**6. Mức độ hoàn thành**
+- Đã hoàn thành: 100% yêu cầu của Lab 05.
+- Chưa hoàn thành: Không có.
+
+**7. Khai báo sử dụng AI**
+- **Công cụ đã sử dụng:** Google Gemini.
+- **Mục đích sử dụng:** Hỗ trợ viết README.md.
+- **Phần được AI hỗ trợ:** 
+  - Hỗ trợ viết format chuẩn cho README.md.
 ---
 
 ### Lab 06: [Tên bài thực hành Lab 06]
